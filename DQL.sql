@@ -1,22 +1,3 @@
-# maquillateWay
-
-## Tabla de contenido
-| Indice | Título  |
-|--|--|
-| 1. | [Descripción](#Descripcion) |
-| 2. | [Características](#Características) |
-| 3. | [Tecnologías Utilizadas](#Tecnologias) |
-| 4. | [Uso del Repositorio](#Uso) |
-| 5. | [Instrucciones de Ejecución](#Instrucciones) |
-| 6. | [Autor](#Autores) |
-
-## Descripcion🚀
-
-El proyecto maquillateWay se basa en la gestion de base de datos debida para el funcionamiento de una tienda de maquillaje para hacer consultas.
-
-## Características🧮
-
-```sql
 -- 1
 delimiter //
 create procedure listar_productos_cosmeticos(tipo_cosmetico varchar(255))
@@ -105,24 +86,3 @@ call consultar_stock_producto('labial rojo', null);
 call consultar_stock_producto(null, 1);
 
 -- 7
-```
-
-## Tecnologias🖥️ 
-
-- **SQL** : Se uso para el codigo de la base de datos.
-- **UML STAR** : Se uso para el diseño del diagrama ER.
-- **Workbench** : Se uso para el modelado fisico del MySQL.
-
-## Uso📝
-
-Este repositorio contiene el código fuente del proyecto maquillateWay, conteniendo todo el maquetado de la base de datos de una tienda de maquillaje con todo lo adecuado estando lista para que agreguen datos y hagan consultas.
-
-## Instrucciones📐
-
-1. Clona el repositorio a tu máquina local. 
-2. Abre todo en su correspondido apartado o en visual studio code.
-
-
-## Autor👤
-
-[Leonardo Gonzalez](https://github.com/DLeonardoG) 
